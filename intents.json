@@ -1,0 +1,164 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+      "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+      "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+      "context": [""]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+      "responses": ["My pleasure", "You're Welcome"],
+      "context": [""]
+    },
+    {
+      "tag": "query",
+      "patterns": [
+        "What is the short title, extent, and commencement of the Indian Contract Act?",
+        "Define the interpretation clause in the Indian Contract Act.",
+        "How does the Indian Contract Act deal with communication, acceptance, and revocation of proposals?",
+        "When is communication of a proposal or acceptance considered complete according to the Indian Contract Act?",
+        "What are the rules for revoking proposals and acceptances as per the Indian Contract Act?",
+        "Distinguish between express and implied contracts according to the Indian Contract Act.",
+        "How does the Indian Contract Act address offer and acceptance in ignorance, mistake, or fraud?",
+        "Explain the concept of performance of a contract in the Indian Contract Act.",
+        "What are promises, express and implied, as per the Indian Contract Act?",
+        "Outline the essential elements of a valid contract according to the Indian Contract Act.",
+        "Who is competent to contract under the Indian Contract Act?",
+        "Define 'consent' and 'free consent' as per the Indian Contract Act.",
+        "What constitutes coercion, undue influence, fraud, misrepresentation, or mistake in the context of contracts according to the Indian Contract Act?",
+        "Under what circumstances are agreements without free consent voidable as per the Indian Contract Act?",
+        "What power does the court have regarding contracts induced by undue influence under the Indian Contract Act?"
+      ],
+      "responses": ["The response for each question will provide information related to the corresponding section of the Indian Contract Act."],
+      "context": [""]
+    },
+    {
+      "tag": "section_1",
+      "patterns": ["What is Section 1 of the Indian Contract Act about?"],
+      "responses": ["Section 1 of the Indian Contract Act specifies the Act's name, its application area, and when it came into effect."],
+      "context": [""]
+    },
+    {
+      "tag": "section_2",
+      "patterns": ["What does Section 2 of the Indian Contract Act define?"],
+      "responses": ["Section 2 of the Indian Contract Act defines key terms used throughout the Act, such as 'contract,' 'agreement,' 'proposal,' and 'acceptance.'"],
+      "context": [""]
+    },
+    {
+      "tag": "section_3",
+      "patterns": ["How does Section 3 of the Indian Contract Act deal with proposals?"],
+      "responses": ["Section 3 of the Indian Contract Act deals with how offers are made, accepted, and revoked."],
+      "context": [""]
+    },
+    {
+      "tag": "section_4",
+      "patterns": ["When is communication considered complete according to Section 4 of the Indian Contract Act?"],
+      "responses": ["Section 4 of the Indian Contract Act defines when communication of a proposal or acceptance is considered complete."],
+      "context": [""]
+    },
+    {
+      "tag": "section_5",
+      "patterns": ["What are the rules for revoking proposals and acceptances as per Section 5 of the Indian Contract Act?"],
+      "responses": ["Section 5 of the Indian Contract Act provides rules for revoking offers and acceptances."],
+      "context": [""]
+    },
+    {
+      "tag": "section_6",
+      "patterns": ["How does Section 6 of the Indian Contract Act distinguish between contracts?"],
+      "responses": ["Section 6 of the Indian Contract Act distinguishes between agreements explicitly stated (express contracts) and those inferred from conduct (implied contracts)."],
+      "context": [""]
+    },
+    {
+      "tag": "section_7",
+      "patterns": ["How does Section 7 of the Indian Contract Act address offer and acceptance in certain situations?"],
+      "responses": ["Section 7 of the Indian Contract Act addresses situations where a mistake, fraud, or ignorance of a material fact affects the offer or acceptance."],
+      "context": [""]
+    },
+    {
+      "tag": "section_8",
+      "patterns": ["What does Section 8 of the Indian Contract Act introduce?"],
+      "responses": ["Section 8 of the Indian Contract Act introduces the concept of performance of a contract, fulfilling the obligations agreed upon."],
+      "context": [""]
+    },
+    {
+      "tag": "section_9",
+      "patterns": ["How does Section 9 of the Indian Contract Act define promises?"],
+      "responses": ["Section 9 of the Indian Contract Act defines promises made in contracts, whether explicitly stated or implied."],
+      "context": [""]
+    },
+    {
+      "tag": "section_10",
+      "patterns": ["What are the essential elements of a valid contract according to Section 10 of the Indian Contract Act?"],
+      "responses": ["Section 10 of the Indian Contract Act outlines the essential elements of a valid contract (free consent, competency, lawful consideration and object, not expressly void)."],
+      "context": [""]
+    },
+    {
+      "tag": "section_11",
+      "patterns": ["Who is competent to contract according to Section 11 of the Indian Contract Act?"],
+      "responses": ["Section 11 of the Indian Contract Act specifies who is legally capable of entering into a contract (e.g., of sound mind, majority age)."],
+      "context": [""]
+    },
+    {
+      "tag": "section_12",
+      "patterns": ["What constitutes a sound mind for entering into a contract as per Section 12 of the Indian Contract Act?"],
+      "responses": ["Section 12 of the Indian Contract Act defines what constitutes a sound mind for entering into a contract."],
+      "context": [""]
+    },
+    {
+      "tag": "section_13",
+      "patterns": ["How does Section 13 of the Indian Contract Act define 'consent'?"],
+      "responses": ["Section 13 of the Indian Contract Act provides a legal definition of 'consent' in the context of contracts."],
+      "context": [""]
+    },
+    {
+      "tag": "section_14",
+      "patterns": ["What is 'free consent' according to Section 14 of the Indian Contract Act?"],
+      "responses": ["Section 14 of the Indian Contract Act defines 'free consent' and establishes the absence of coercion, undue influence, fraud, misrepresentation, or mistake for valid consent."],
+      "context": [""]
+    },
+    {
+      "tag": "section_15",
+      "patterns": ["How does Section 15 of the Indian Contract Act define 'coercion'?"],
+      "responses": ["Section 15 of the Indian Contract Act defines what constitutes coercion that can vitiate consent."],
+      "context": [""]
+    },
+    {
+      "tag": "section_16",
+      "patterns": ["What is 'undue influence' according to Section 16 of the Indian Contract Act?"],
+      "responses": ["Section 16 of the Indian Contract Act defines undue influence that can affect free consent."],
+      "context": [""]
+    },
+    {
+      "tag": "section_17",
+      "patterns": ["How is 'fraud' defined in Section 17 of the Indian Contract Act?"],
+      "responses": ["Section 17 of the Indian Contract Act provides a legal definition of fraud in the context of contracts."],
+      "context": [""]
+    },
+    {
+      "tag": "section_18",
+      "patterns": ["What is 'misrepresentation' as defined in Section 18 of the Indian Contract Act?"],
+      "responses": ["Section 18 of the Indian Contract Act defines misrepresentation, a false statement that can affect consent."],
+      "context": [""]
+    },
+    {
+      "tag": "section_19",
+      "patterns": ["Under what circumstances are agreements without free consent voidable as per Section 19 of the Indian Contract Act?"],
+      "responses": ["Section 19 of the Indian Contract Act establishes that agreements entered into without free consent are voidable at the option of the injured party."],
+      "context": [""]
+    },
+    {
+      "tag": "section_19A",
+      "patterns": ["What power does the court have regarding contracts induced by undue influence under Section 19A of the Indian Contract Act?"],
+      "responses": ["Section 19A of the Indian Contract Act grants the court the power to set aside a contract induced by undue influence."],
+      "context": [""]
+    }
+  ]
+}
